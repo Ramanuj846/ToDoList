@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="" style="text-align: center;">
+      <h1>To Do List</h1>
+    <form >
+        <div class="col-lg-10 mt-2">
+          <input type="text" placeholder="Add Your Task" name="task" [(ngModel)]="addTaskValue">
+        </div>
+      
+        <div class="mt-4" style="margin-top: 20px;">
+          <button (click)="addTask()" class="btn btn-primary">Add Task</button>
+        </div>
+    </form>
+    </div>
+  
+    <div class="mt-5">
+      <h4>Tasks:</h4>
+      <div *ngFor="let task of taskArr">
+        {{task.taskName}}
+      </div>
+      <div class="" style="overflow-y: auto; height: 300px;">
+        <button class="btn btn-outline-primary">Edit</button>
+        <button class="btn btn-outline-danger">Delete</button>
+  
+      </div>
+    </div>
+  
+   
+  
+  
+  </div>
