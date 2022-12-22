@@ -1,11 +1,8 @@
 {
-    "todoTask":[
-        {
-
-            "id":1,
-            "taskName":"Study"
-
-
-        }
-    ]
+  "todoTask": [
+    {
+      "id":1 ,
+      "taskName": " Study"
+    }
+  ]
 }
